@@ -1,0 +1,33 @@
+this program reads in three integers and displays them in ascending order 
+
+implicit none
+
+integers : a,b,c
+
+read(*, *) a, b, c
+
+if (a < b) THEN 
+    if (a < C) THEN
+       if (b < c) THEN
+         WRITE (*. *) a, b, C
+    ELSE 
+         WRITE (*, *) a, c, b
+
+    END IF 
+  ELSE
+    WRITE (*, *) c, a, b
+  ELSE IF
+ELSE
+   IF (b < c) THEN
+      IF (a < c) THEN
+        WRITE (*, *) b, a, C
+     ELSE
+        WRITE (*, *) b, c, a
+     END IF 
+
+  ELSE 
+     WRITE (*, *) c, b, a 
+  END IF 
+END IF 
+
+END PROGRAM order

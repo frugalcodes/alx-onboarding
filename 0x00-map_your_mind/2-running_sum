@@ -1,0 +1,9 @@
+input num
+
+let sum = 0
+
+IF (num > 0)
+
+  sum = sum + num 
+
+  ELSE "PRiNT sum"

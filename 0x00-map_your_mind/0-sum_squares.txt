@@ -1,0 +1,7 @@
+let sum = 0;
+
+for the number = 1..
+
+let sum = sum + number * number
+
+if break then return x
